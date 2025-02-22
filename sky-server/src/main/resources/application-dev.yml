@@ -6,3 +6,10 @@ sky:
     database: sky_take_out
     username: root
     password: Dlt@112102
+
+  minio:
+    access-key: Ab0xl76UnvCldbbwzhiD
+    secret-key: 8MIwu3FIIDkrFBP1Dqhs3pKo6XqLxa8h9T9rP9OY
+    bucket: sky-take-out
+    end-point: http://nas.boeing773er.site:9000
+    read-path: http://nas.boeing773er.site:9000
