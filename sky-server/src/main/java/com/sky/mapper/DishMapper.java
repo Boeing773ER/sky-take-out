@@ -64,4 +64,15 @@ public interface DishMapper {
      * @param dish
      */
     void update(Dish dish);
+
+    /**
+     * 列出***
+     * @param dish
+     * @return
+     */
+
+    List<Dish> list(Dish dish);
+
+    @Select("select d.* from dish d left join setmeal_dish sd on d.id = sd.dish_id where sd.setmeal_id = #{setmeal_id}")
+    List<Dish> getBySetmealId(Long setmeal_id);
 }

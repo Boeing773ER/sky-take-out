@@ -13,3 +13,13 @@ sky:
     bucket: sky-take-out
     end-point: http://nas.boeing773er.site:9000
     read-path: http://nas.boeing773er.site:9000
+
+  redis:
+    host: localhost
+    port: 6379
+    password: Dlt@112102
+    database: 2
+
+  wechat:
+    appid: wx761a92e990d4c336
+    secret: 4ae28f5c58c1d4690905a5a894414c51
