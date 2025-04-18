@@ -75,4 +75,11 @@ public interface SetmealMapper {
      */
     @Delete("delete from setmeal where id = #{setMealId}")
     void deleteById(Long setMealId);
+
+    /**
+     * 根据条件统计套餐数量
+     * @param map
+     * @return
+     */
+    Integer countByMap(Map map);
 }
